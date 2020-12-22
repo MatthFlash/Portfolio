@@ -1,0 +1,60 @@
+html {
+  margin: -12px -20px;
+  scroll-behavior: smooth;
+  font-family: Comfortaa, sans-serif;
+}
+
+#logo {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+#toolbar {
+  background-color: #4886E5;
+  position: sticky;
+  top: 0;
+  padding-top: 2%;
+  margin-top: -10%;
+  text-align: center;
+  height: 50px;
+  z-index: 999;
+}
+
+.itemToolbar:hover {
+  color: black;
+  border-bottom: solid 2px black;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.itemToolbar {
+  color: #424242;
+  background-color: #4886E5;
+  margin: 5% 2% 0;
+  padding: 0.5% 0;
+  text-decoration: none;
+  font-size: 1.2vw;
+  border-bottom: solid 2px #424242;
+}
+
+#name {
+  position: sticky;
+  top: 3%;
+  color: white;
+  background-color: #4886E5;
+  padding-left: 3%;
+  font-size: 1.6vw;
+  font-weight: bolder;
+  width: 18%;
+  z-index: 1100;
+}
+
+#underlineName {
+  margin-top: -3%;
+  width: 10%;
+}
+
+#contenu {
+  margin: 1% 5% 0;
+}
