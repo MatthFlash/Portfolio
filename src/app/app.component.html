@@ -1,22 +1,18 @@
-<html #home>
-  <body>
-  <div id="name">
-    <p id="logo">MATTHIEU LUYCKX</p>
-    <hr id="underlineName">
-  </div>
+<body>
+  <div id="header">
     <div id="toolbar">
       <a class="itemToolbar" (click)="scroll(home)"><b>ACCUEIL</b></a>
       <a class="itemToolbar" (click)="scroll(profile)"><b>MON PROFIL</b></a>
       <a class="itemToolbar" href="home"><b>PROJET PROFESSIONNEL</b></a>
       <a class="itemToolbar" href="home"><b>PORTFOLIO</b></a>
     </div>
-    <div id="contenu">
-      <div>
-        <app-home></app-home>
-      </div>
-      <div #profile>
-        <app-profile></app-profile>
-      </div>
+</div>
+  <div id="contenu">
+    <div id=home #home >
+      <app-home></app-home>
     </div>
-  </body>
-</html>
+    <div id=profile #profile>
+      <app-profile></app-profile>
+    </div>
+  </div>
+</body>

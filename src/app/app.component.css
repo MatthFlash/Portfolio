@@ -1,21 +1,20 @@
-html {
-  margin: -12px -20px;
+/*html {
+  /*margin: -12px -20px;
   scroll-behavior: smooth;
   font-family: Comfortaa, sans-serif;
+}*/
+
+body {
+  width: 100%;
 }
 
-#logo {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  color: white;
-}
-
-#toolbar {
+#header {
   background-color: #4886E5;
   position: sticky;
-  top: 0;
+  margin-top : -1%;
+  margin-left: -10%;
+  width: 110%;
   padding-top: 2%;
-  margin-top: -10%;
   text-align: center;
   height: 50px;
   z-index: 999;
@@ -50,11 +49,14 @@ html {
   z-index: 1100;
 }
 
-#underlineName {
-  margin-top: -3%;
-  width: 10%;
+#contenu {
+  margin: 7% 5% 0;
 }
 
-#contenu {
-  margin: 1% 5% 0;
+#home {
+ top: 50px;
+}
+
+#profile {
+  top: 50px;
 }
